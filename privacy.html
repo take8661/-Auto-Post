@@ -3,42 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>プライバシーポリシー</title>
+    <title>AutoPost - プライバシーポリシー</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; }
-        header { text-align: center; padding: 20px; }
-        h1, h2 { color: #333; }
-        p { margin: 15px 0; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            border-bottom: 3px solid #333;
+            padding-bottom: 15px;
+            color: #1a1a1a;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-top: 35px;
+            border-left: 5px solid #3498db;
+            padding-left: 15px;
+            font-size: 1.2em;
+        }
+        .policy-content {
+            background-color: #f9f9f9;
+            padding: 25px;
+            border-radius: 8px;
+        }
+        .footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            font-size: 0.95em;
+            color: #666;
+        }
+        ol {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+        li {
+            margin: 12px 0;
+            line-height: 1.7;
+        }
+        .intro {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 25px;
+        }
+        .statement {
+            background-color: #e8f4f8;
+            padding: 12px 15px;
+            border-left: 4px solid #3498db;
+            margin: 15px 0;
+            font-size: 1.05em;
+        }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Auto Post - プライバシーポリシー</h1>
-        <p>最終更新日: 2026年5月3日</p>
-    </header>
-    <section>
-        <h2>1. 個人情報の取得</h2>
-        <p>本ツールは、TikTok APIからユーザーIDを取得し、データを投稿します。</p>
-    </section>
-    <section>
-        <h2>2. 利用目的</h2>
-        <p>自動投稿機能を提供し、APIの統合を維持するために、取得した個人情報を使用します。</p>
-    </section>
-    <section>
-        <h2>3. データの保存</h2>
-        <p>取得した情報は、必要な期間のみ保持します。</p>
-    </section>
-    <section>
-        <h2>4. 第三者への提供</h2>
-        <p>法律で要求されない限り、利用者の同意なしに個人情報を共有することはありません。</p>
-    </section>
-    <section>
-        <h2>5. セキュリティ</h2>
-        <p>適切な技術的保護手段を講じて、個人情報を保護します。</p>
-    </section>
-    <section>
-        <h2>6. お問い合わせ先</h2>
-        <p>本プライバシーポリシーに関するご質問は、support@example.comまでご連絡ください。</p>
-    </section>
+    <h1>AutoPost - プライバシーポリシー</h1>
+    
+    <div class="policy-content">
+        <div class="statement">
+            <p><strong>This Privacy Policy applies to AutoPost.</strong></p>
+        </div>
+
+        <div class="intro">
+            <p><strong></strong>が提供するn8nおよび生成AIを利用したSNS自動投稿ツール「<strong>AutoPost</strong>」（以下「本ツール」といいます。）は、利用者のプライバシーを重視し、個人情報の適切な取扱いを行うことをお約束します。本プライバシーポリシーは、本ツールが如何なる個人情報を取得し、どのように利用・保護するかについて説明するものです。</p>
+        </div>
+
+        <h2>第1条（個人情報の定義）</h2>
+        <p>本プライバシーポリシーにおいて「個人情報」とは、以下の情報を指します。</p>
+        <ol>
+            <li>TikTok APIおよびInstagram APIを通じて取得するユーザー識別子（User ID）、アカウント名等の認証情報</li>
+            <li>自動投稿のためにユーザーが入力・アップロードする投稿データ（画像、動画、テキスト、プロンプト等）</li>
+            <li>本ツール利用時に生成されるアクセストークン、APIキー等の認証認証情報</li>
+            <li>その他、利用者を直接または間接的に特定できる情報</li>
+        </ol>
+
+        <h2>第2条（個人情報の取得方法）</h2>
+        <p>本ツールは、以下の方法により個人情報を取得します。</p>
+        <ol>
+            <li>利用者が本ツールに入力する情報（InstagramおよびTikTokのアカウント認証情報）</li>
+            <li>TikTok APIおよびInstagram APIを経由して取得するユーザーデータ（ユーザーID、投稿ステータス等）</li>
+            <li>生成AIプロンプトおよびコンテンツデータ</li>
+            <li>本ツール利用時のログデータ（利用日時、操作履歴等）</li>
+        </ol>
+
+        <h2>第3条（個人情報の利用目的）</h2>
+        <p>本ツールが取得した個人情報は、以下の目的でのみ利用します。</p>
+        <ol>
+            <li>InstagramおよびTikTokアカウントへの自動投稿機能の提供</li>
+            <li>n8nおよびAPI連携の維持・運用</li>
+            <li>本ツール利用者への問い合わせ対応およびサポート提供</li>
+            <li>本ツールの機能改善、不具合対応、セキュリティ向上</li>
+            <li>本ツール利用規約およびプライバシーポリシーの遵守確認</li>
+            <li>その他、利用者の同意に基づく目的</li>
+        </ol>
+
+        <h2>第4条（個人情報の保管期間）</h2>
+        <ol>
+            <li>取得した個人情報は、本ツールによる自動投稿機能の提供に必要な期間のみ保持します。</li>
+            <li>投稿処理の完了後、APIの有効性維持に必要な範囲でアクセストークン等は一定期間保持されることがあります。</li>
+            <li>利用者が本ツールの利用を中止した場合、合理的な期間内に個人情報を削除いたします。</li>
+            <li>法令に基づき保管が必要とされる情報を除き、保管期間終了後は個人情報を削除またはフォーマットします。</li>
+        </ol>
+
+        <h2>第5条（個人情報の第三者提供）</h2>
+        <ol>
+            <li>本ツールは、法令に基づく場合を除き、利用者の明示的な同意なく個人情報を第三者に提供することはありません。</li>
+            <li>以下の場合については、利用者への事前通知またはプライバシーポリシーの記載により同意があるものとします。
+                <ol style="list-style-type: lower-alpha;">
+                    <li>n8n、TikTok、Instagramなどのプラットフォーム提供者との必要な連携</li>
+                    <li>生成AIサービス提供者（OpenAI等）への必要最小限のプロンプト・データ送信</li>
+                    <li>法令に基づく政府機関・警察等への情報提供</li>
+                    <li>本ツール提供に必要な技術サポート企業への委託</li>
+                </ol>
+            </li>
+            <li>いかなる場合においても、利用者の個人情報を販売、賃貸、または不適切な目的で第三者と共有することはありません。</li>
+        </ol>
+
+        <h2>第6条（セキュリティ対策）</h2>
+        <ol>
+            <li>本ツールは、個人情報の損失、盗難、改ざん、不正アクセスを防止するため、以下の技術的手段を講じます。
+                <ol style="list-style-type: lower-alpha;">
+                    <li>APIキーおよびアクセストークンの暗号化保存</li>
+                    <li>通信時のSSL/TLS暗号化</li>
+                    <li>アクセス制限およびログ管理</li>
+                    <li>定期的なセキュリティ監査</li>
+                </ol>
+            </li>
+            <li>ただし、インターネット通信上の絶対的なセキュリティを保証するものではありません。</li>
+            <li>利用者は、自己の責任においてパスワード等の認証情報を厳重に管理するものとします。</li>
+        </ol>
+
+        <h2>第7条（利用者の権利）</h2>
+        <p>利用者は、以下の権利を有しています。</p>
+        <ol>
+            <li>本ツールが保有する自身の個人情報について、開示を請求する権利</li>
+            <li>個人情報に誤りがある場合、訂正または削除を請求する権利</li>
+            <li>個人情報の処理を拒否する権利</li>
+            <li>本ツールの利用を中止し、個人情報の削除を要求する権利</li>
+        </ol>
+
+        <h2>第8条（外部SNS規約の遵守）</h2>
+        <ol>
+            <li>本ツールを通じて取得される個人情報は、TikTok、Instagramの各利用規約およびプライバシーポリシーにも従うものとします。</li>
+            <li>本ツール提供者は、外部SNSの規約変更に伴うデータ処理方法の変更について、法的責任を最小限に留めるものとします。</li>
+        </ol>
+
+        <h2>第9条（プライバシーポリシーの変更）</h2>
+        <ol>
+            <li>本プライバシーポリシーは、法令の変更、セキュリティ強化、ビジネス上の必要性により、予告なく変更されることがあります。</li>
+            <li>変更内容は、本ツール上に掲示され、掲示時点から効力を有するものとします。</li>
+            <li>変更後に本ツールを継続利用した場合、変更内容に同意したものとみなします。</li>
+        </ol>
+
+        <h2>第10条（お問い合わせ先）</h2>
+        <p>本プライバシーポリシー、個人情報の取扱い、またはセキュリティに関するご質問・ご懸念については、以下の方法でお問い合わせください。</p>
+        <ol>
+            <li><strong>メール：</strong> </li>
+            <li><strong>SNS：</strong> @sanmu8021（）のInstagramまたはTikTokアカウント</li>
+            <li><strong>その他：</strong> 本ツール内のお問い合わせフォーム</li>
+        </ol>
+        <p>ご質問に対しては、可能な限り速やかにご対応させていただきます。</p>
+
+        <h2>第11条（準拠法）</h2>
+        <p>本プライバシーポリシーは、日本法に準拠し、日本の法律により解釈されます。本プライバシーポリシーに関連する紛争については、東京地方裁判所を第一審の管轄裁判所とします。</p>
+
+        <div class="footer">
+            <p><strong>制定日：</strong>2026年5月3日</p>
+            <p><strong>最終更新日：</strong>2026年5月5日</p>
+            <p><strong>提供者：</strong></p>
+            <p><strong>サービス名：</strong>AutoPost</p>
+            <p style="margin-top: 20px; font-size: 0.9em;">© 2026 AutoPost. All rights reserved.</p>
+        </div>
+    </div>
 </body>
 </html>
